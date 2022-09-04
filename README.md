@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/jasham/interactive-rating-component-main)
+- Live Site URL: [Add live site URL here](https://6314298d48c9b81f5109c395--cool-raindrop-791fc5.netlify.app/)
 
 ### Built with
 
