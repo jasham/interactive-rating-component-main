@@ -12,8 +12,8 @@ export const ShowRating = () => {
       <div className={styles.showRatingWrapper}>
         <Image
           src="/images/illustration-thank-you.svg"
-          height={"90rem"}
-          width="140rem"
+          height={90}
+          width={140}
           alt="thank"
         />
         <p className={styles.capsule}>
