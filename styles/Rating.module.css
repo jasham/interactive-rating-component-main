@@ -1,0 +1,68 @@
+.rating {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.radio {
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+}
+
+.ratingCheck {
+  background-color: var(--DarkBlue);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  color: var(--MediumGrey);
+}
+
+.inputRadio:hover ~ .ratingCheck {
+  background-color: var(--Orange);
+  color: var(--White);
+}
+
+.inputRadio {
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 2;
+}
+
+.inputRadio:checked ~ .ratingCheck {
+  background-color: var(--LightGrey);
+  color: var(--White);
+}
+
+.ratingWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+  max-width: 21rem;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.head > h2 {
+  color: var(--White);
+}
+
+.head > p {
+  color: var(--MediumGrey);
+}

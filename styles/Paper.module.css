@@ -1,0 +1,11 @@
+.main {
+  border-radius: 1rem;
+  background-image: radial-gradient(
+    farthest-side at 50% -10%,
+    #222933,
+    #1d242e,
+    #181e28
+  );
+  padding: 1.8rem 1.5rem;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}

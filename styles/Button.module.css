@@ -1,0 +1,21 @@
+.button {
+  border: 0;
+  width: 100%;
+  background-color: var(--White);
+  color: var(--Orange);
+  border-radius: 2rem;
+  padding: 0.8rem 1.7rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: transform 0.2s;
+  letter-spacing: 0.1rem;
+}
+
+.button:hover {
+  background-color: var(--Orange);
+  color: var(--White);
+}
+
+.button:active {
+  transform: scale(0.9);
+}

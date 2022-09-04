@@ -1,10 +1,9 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
-import { RatingMain } from "../src/modules/rating";
+import { ShowRating } from "../src/modules/showRating";
 import styles from "../styles/Home.module.css";
 
-const Home: NextPage = () => {
+const ShowRatingMain: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -13,10 +12,10 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <RatingMain />
+        <ShowRating />
       </main>
     </div>
   );
 };
 
-export default Home;
+export default ShowRatingMain;
