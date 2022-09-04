@@ -6,9 +6,9 @@ import styles from "../styles/Home.module.css";
 const ShowRatingMain: NextPage = () => {
   return (
     <div className={styles.container}>
-      <Head>
+      {/* <Head>
         <title>Frontend Mentor | Interactive rating component</title>
-      </Head>
+      </Head> */}
 
       <main className={styles.main}>
         <ShowRating />
