@@ -1,8 +1,8 @@
 .button {
   border: 0;
   width: 100%;
-  background-color: var(--White);
-  color: var(--Orange);
+  background-color: var(--Orange);
+  color: var(--White);
   border-radius: 2rem;
   padding: 0.8rem 1.7rem;
   text-transform: uppercase;
@@ -12,8 +12,8 @@
 }
 
 .button:hover {
-  background-color: var(--Orange);
-  color: var(--White);
+  background-color: var(--White);
+  color: var(--Orange);
 }
 
 .button:active {
