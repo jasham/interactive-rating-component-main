@@ -10,7 +10,7 @@ export const Rating = ({ onSelectRadio }: RatingProps) => {
   return (
     <div className={styles.rating}>
       {ratingList.map((data, index) => (
-        <div key={index.toString()} className={styles.radio}>
+        <label key={index.toString()} className={styles.radio}>
           <input
             type="radio"
             name="rating"
@@ -19,7 +19,7 @@ export const Rating = ({ onSelectRadio }: RatingProps) => {
             onClick={() => onSelectRadio(data)}
           />
           <div className={styles.ratingCheck}>{data}</div>
-        </div>
+        </label>
       ))}
     </div>
   );
