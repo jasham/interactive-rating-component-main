@@ -18,7 +18,7 @@ export const Rating = ({ onSelectRadio }: RatingProps) => {
             className={styles.inputRadio}
             onClick={() => onSelectRadio(data)}
           />
-          <div className={styles.ratingCheck}>{data}</div>
+          <span className={styles.ratingCheck}>{data}</span>
         </label>
       ))}
     </div>
