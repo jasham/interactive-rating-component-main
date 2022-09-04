@@ -23,7 +23,7 @@ export const ShowRating = () => {
         <div className={styles.thank}>
           <h2>Thank you!</h2>
           <p>
-            We appritiate you taking the time to give a rating. If you ever need
+            We appreciate you taking the time to give a rating. If you ever need
             more support, don&apos;t hesitate to get in touch.
           </p>
         </div>
