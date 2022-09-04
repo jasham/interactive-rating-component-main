@@ -9,7 +9,6 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Frontend Mentor | Interactive rating component</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
       <main className={styles.main}>
