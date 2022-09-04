@@ -11,9 +11,7 @@ const Home: NextPage = () => {
         <title>Frontend Mentor | Interactive rating component</title>
       </Head>
 
-      <main className={styles.main}>
-        <RatingMain />
-      </main>
+      <main className={styles.main}>{/* <RatingMain /> */}</main>
     </div>
   );
 };
