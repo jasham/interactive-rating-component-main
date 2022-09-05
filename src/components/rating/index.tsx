@@ -9,7 +9,7 @@ const ratingList = [1, 2, 3, 4, 5];
 export const Rating = ({ onSelectRadio }: RatingProps) => {
   return (
     <div className={styles.rating}>
-      {/* {ratingList.map((data, index) => (
+      {ratingList.map((data, index) => (
         <label
           key={index.toString()}
           className={styles.radio}
@@ -25,7 +25,7 @@ export const Rating = ({ onSelectRadio }: RatingProps) => {
           />
           <span className={styles.ratingCheck}>{data}</span>
         </label>
-      ))} */}
+      ))}
     </div>
   );
 };

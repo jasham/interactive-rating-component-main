@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         </section>
         <section id="rating">
           <h2>This section shows rating component.</h2>
-          {/* <Rating onSelectRadio={onSelectRadio} /> */}
+          <Rating onSelectRadio={onSelectRadio} />
         </section>
         <section id="rating">
           <h2>This section shows button component.</h2>
