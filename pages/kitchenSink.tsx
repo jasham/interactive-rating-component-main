@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import React from "react";
 import { Button } from "../src/components/button";
 import { Paper } from "../src/components/paper";
-import { Rating } from "../src/components/rating";
+// import { Rating } from "../src/components/rating";
 import { Star } from "../src/components/star";
 import styles from "../styles/KitchenSink.module.css";
 
@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         </section>
         <section id="rating">
           <h2>This section shows rating component.</h2>
-          <Rating onSelectRadio={onSelectRadio} />
+          {/* <Rating onSelectRadio={onSelectRadio} /> */}
         </section>
         <section id="rating">
           <h2>This section shows button component.</h2>
